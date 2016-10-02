@@ -1693,4 +1693,172 @@
 }
 
 @media only screen and (max-width : 1023px)   {
+	
+	#mainHeader {
+		display: none;
+	}
+	#mainHeaderMobile {
+		display: block;
+	}
+	.subContainer .container {
+		padding: 0;
+	}
+	.subContainer header .headerOptionsHolder {
+		background-color: rgba(128, 180, 55, 0.7)
+	}
+	.subContainer .languageSelectorHolder > ul > li .languageLabel {
+		display: none;
+	}
+	.subContainer header ul.headerContentsHolder > li.topOptions {
+		padding: 0;
+	}
+	.subContainer header .headerOptionsHolder > ul > li {
+		float: left;
+		overflow: hidden;
+		display: block;
+	}
+	.subContainer header .headerOptionsHolder > ul {
+		float: none;
+		width: 280px;
+		margin: auto;	
+	}
+	.subContainer header ul.headerContentsHolder > li.navIcon {
+		line-height: 60px;
+	} 
+	.subContainer header ul.headerContentsHolder > li.navIcon  a {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		display: block;
+		text-align: center;
+		color: #666666;
+		font-size: 20px;
+	}
+	.subContainer .languageSelectorHolder > ul > li .caretHolder {
+		color: #FFFFFF;
+	}	
+	.subContainer .headerActionsHolder > ul > li .languageLabel {
+		color: #FFFFFF;
+		font-weight: 400;
+	}
+	.subContainer .headerActionsHolder > ul > li .langIcon {
+		color: #FFFFFF;
+		font-weight: 400;
+	}
+	.subContainer header ul.headerContentsHolder > li.logoHolder img {
+		height: 60px;
+		max-width: inherit;
+		width: auto;
+	}
+	.subContainer header .headerOption {
+		border-left: 2px solid transparent;
+		border-right: 2px solid transparent;
+		border-bottom: 2px solid transparent;
+		border-radius: 0 0 0px 0px;
+	}	
+	.subContainer .languageSelectorHolder > ul > li#selectedLanguage:hover {
+		background-color: transparent;
+	}
+	.subContainer .languageSelectorHolder > ul.open > li.langList:hover{
+		background-color: rgba(128, 180, 55, 0.7);
+	}
+	.subContainer.bannerHolder .welcomeMessageHolder {
+		font-size: 2em;
+	}
+	.subContainer.bannerHolder .welcomeMessageContainer {
+		padding: 20px 0;
+	}
+	.subContainer.bannerHolder .subInfoHolder {
+		font-size: 1.5em;
+	}
+	.searchMobile {
+		display: block;
+		text-align: center;
+	}
+	.searchMobile button {
+		float: none;
+		overflow: hidden;
+		display: block;
+		box-sizing: border-box;
+		border: solid 1px #85af4b;
+		line-height: 28px;
+		font-size: 17px;
+		color: #FFFFFF;
+		padding: 0 50px;
+		background-color: #85af4b;
+		text-align: center;
+		margin: auto;
+	}
+	.subContainer.bannerHolder .searchBoxHolder {
+		display: none;
+	}
+	.subContainer.bannerHolder {
+		height: auto;
+		padding: 20px 15px;
+	}
+	.categoryListHolder {
+		margin: 0;
+	}
+	.subContainer.midContentHolder {
+		padding: 20px 15px;
+	}
+	.categoryListContainer .topSectionHolder .labelHolder {
+		font-size: 1.5em;
+		padding: 0;
+	}
+	.categoryListContainer .midSectionHolder .labelHolder {
+		font-size: 1.5em;
+		line-height: 25px;
+		font-weight: 600;
+	}
+	.subContainer.midContentHolder .midMessageHolder {
+		font-size: 1.5em;
+	}
+	.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder > ul > li {
+		padding: 0 0 15px;
+	}
+	.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		display: block;
+	}
+	.subContainer.featuredServices {
+		padding: 20px 15px;	
+	}
+	.subContainer.featuredServices .sectionListHolder > ul > li:first-child {
+		padding: 15px;
+	}
+	.subContainer.featuredServices .sectionListHolder > ul > li:last-child {
+		padding: 15px;
+	}
+	.subContainer.adsHolder {
+		padding: 20px 15px;
+	}
+	.subContainer.adsHolder .sectionListHolder > ul > li:first-child {
+		padding: 15px;
+	}
+	.subContainer.adsHolder .sectionListHolder > ul > li:last-child {
+		padding: 15px;
+	}	
+	.subContainer.messageHolder {
+		padding: 0 15px;
+	}
+	.subContainer.footerHolder .mainFooterHolder {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		display: block;
+		padding: 10px 0;
+		background-color: rgba(128, 180, 55, 0.7);
+	}
+	.subContainer.footerHolder .mainFooterHolder > ul > li {
+		padding: 0 0px;
+	}
+	.subContainer.footerHolder .footerListHolder > ul > li {
+		color: #FFFFFF;
+	}
+	.subContainer.footerHolder .mainFooterHolder > ul > li.hideInMobile {
+		display: none;
+	}
 }
