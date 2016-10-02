@@ -120,7 +120,7 @@
 		font-size: 1.5em;
 	}
 	.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder > ul > li {
-		padding: 0 0 15px;
+		padding: 0 25px 15px;
 	}
 	.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li {
 		width: 100%;
@@ -165,6 +165,9 @@
 	}
 	.subContainer.footerHolder .mainFooterHolder > ul > li.hideInMobile {
 		display: none;
+	}
+	.categoryListHolder > ul > li {
+		padding: 0 25px;
 	}
 }
 /* iphone 6 portrait */
@@ -290,7 +293,7 @@
 		font-size: 1.5em;
 	}
 	.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder > ul > li {
-		padding: 0 0 15px;
+		padding: 0 25px 15px;
 	}
 	.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li {
 		width: 100%;
@@ -336,6 +339,9 @@
 	.subContainer.footerHolder .mainFooterHolder > ul > li.hideInMobile {
 		display: none;
 	}
+	.categoryListHolder > ul > li {
+		padding: 0 25px;
+	}	
 }
 /* iphone 6 Plus landscape */
 @media only screen and (min-device-width : 414px)   and (max-device-width : 736px) and (orientation : landscape) { 
@@ -460,7 +466,7 @@
 		font-size: 1.5em;
 	}
 	.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder > ul > li {
-		padding: 0 0 15px;
+		padding: 0 25px 15px;
 	}
 	.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li {
 		width: 100%;
@@ -505,6 +511,9 @@
 	}
 	.subContainer.footerHolder .mainFooterHolder > ul > li.hideInMobile {
 		display: none;
+	}
+	.categoryListHolder > ul > li {
+		padding: 0 25px;
 	}
 }
 /* iphone 6 Plus portrait */
@@ -630,7 +639,7 @@
 		font-size: 1.5em;
 	}
 	.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder > ul > li {
-		padding: 0 0 15px;
+		padding: 0 25px 15px;
 	}
 	.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li {
 		width: 100%;
@@ -676,6 +685,9 @@
 	.subContainer.footerHolder .mainFooterHolder > ul > li.hideInMobile {
 		display: none;
 	}
+	.categoryListHolder > ul > li {
+		padding: 0 25px;
+	}	
 }
 /* iphone 5/5s landscape */
 @media only screen and (min-device-width : 320px)  and (max-device-width : 568px) and (orientation : landscape ) { 
@@ -800,7 +812,7 @@
 		font-size: 1.5em;
 	}
 	.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder > ul > li {
-		padding: 0 0 15px;
+		padding: 0 25px 15px;
 	}
 	.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li {
 		width: 100%;
@@ -846,6 +858,9 @@
 	.subContainer.footerHolder .mainFooterHolder > ul > li.hideInMobile {
 		display: none;
 	}
+	.categoryListHolder > ul > li {
+		padding: 0 25px;
+	}	
 }
 /* iphone 5/5s portrait */
 @media only screen and (min-device-width : 320px)  and (max-device-width : 568px) and (orientation : portrait ) { 
@@ -918,7 +933,7 @@
 		background-color: rgba(128, 180, 55, 0.7);
 	}
 	.subContainer.bannerHolder .welcomeMessageHolder {
-		font-size: 2em;
+		font-size: 1.7em!important;
 	}
 	.subContainer.bannerHolder .welcomeMessageContainer {
 		padding: 20px 0;
@@ -970,7 +985,7 @@
 		font-size: 1.5em;
 	}
 	.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder > ul > li {
-		padding: 0 0 15px;
+		padding: 0 25px 15px;
 	}
 	.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li {
 		width: 100%;
@@ -1015,6 +1030,12 @@
 	}
 	.subContainer.footerHolder .mainFooterHolder > ul > li.hideInMobile {
 		display: none;
+	}
+	.categoryListHolder > ul > li {
+		padding: 0 25px;
+	}	
+	.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessTitleHolder {
+		font-size: 21px;
 	}
 }
 /* iphone 4 below landscape */
@@ -1140,7 +1161,7 @@
 		font-size: 1.5em;
 	}
 	.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder > ul > li {
-		padding: 0 0 15px;
+		padding: 0 25px 15px;
 	}
 	.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li {
 		width: 100%;
@@ -1186,6 +1207,9 @@
 	.subContainer.footerHolder .mainFooterHolder > ul > li.hideInMobile {
 		display: none;
 	}
+	.categoryListHolder > ul > li {
+		padding: 0 25px;
+	}	
 }
 /* iphone 4 below  portrait */
 @media only screen and (min-device-width : 320px)  and (max-device-width : 480px) and (orientation : portrait ) { 
@@ -1310,7 +1334,7 @@
 		font-size: 1.5em;
 	}
 	.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder > ul > li {
-		padding: 0 0 15px;
+		padding: 0 25px 15px;
 	}
 	.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li {
 		width: 100%;
@@ -1356,6 +1380,9 @@
 	.subContainer.footerHolder .mainFooterHolder > ul > li.hideInMobile {
 		display: none;
 	}
+	.categoryListHolder > ul > li {
+		padding: 0 25px;
+	}	
 }
 /* ipad mini landscape */
 @media only screen and (min-device-width : 768px)  and (max-device-width : 1024px) and (orientation : landscape ) and (-webkit-min-device-pixel-ratio: 1) { 
@@ -1691,7 +1718,6 @@
 }
 @media only screen and (min-width : 1280px)   {
 }
-
 @media only screen and (max-width : 1023px)   {
 	
 	#mainHeader {
@@ -1815,7 +1841,7 @@
 		font-size: 1.5em;
 	}
 	.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder > ul > li {
-		padding: 0 0 15px;
+		padding: 0 25px 15px;
 	}
 	.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li {
 		width: 100%;
