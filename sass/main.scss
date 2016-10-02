@@ -6,10 +6,22 @@ html,body,div,p,a,ul,li,ol,table,tr,td,th,h1,h2,h3,h4,h5,h6,header,nav,span,sect
 }
 body {
 	width: 100%;
+	position: relative;
+}
+body.openSearch .mainContainer {
+	-webkit-filter: blur(5px);
+	  -moz-filter: blur(5px);
+	  -o-filter: blur(5px);
+	  -ms-filter: blur(5px);
+	  filter: blur(5px);	
 }
 #mainHeaderMobile,
-.searchMobile {
+.searchMobile,
+.searchMobileHolder {
 	display: none;
+}
+.mobileView .searchMobileHolder.open {
+	display: block;
 }
 .mainContainer {
 	width: 100%;
@@ -255,10 +267,10 @@ body {
 		width: 100%;
 		z-index: 0;
 		opacity: 1;
-	    animation-name: fadeInBanner;
-	    animation-duration: 2s;
-	    animation-timing-function: ease-in;
-	    animation-iteration-count: 1;
+		animation-name: fadeInBanner;
+		animation-duration: 2s;
+		animation-timing-function: ease-in;
+		animation-iteration-count: 1;
 	}
 	.bannerContentsHolder {
 		width: 100%;
@@ -290,212 +302,6 @@ body {
 		display: block;
 		padding: 40px 0;
 	}
-	.searchBoxHolder {
-		width: 100%;
-		float: left;
-		overflow: visible;
-		display: block;
-		padding: 16px 0;
-	}
-	.searchBoxHolder {
-		> ul {
-			margin: auto;
-			float: none;
-			overflow: visible;
-			display: block;
-		}
-		> ul > li {
-			width: 100%;
-			overflow: visible;
-			display: block;
-		}
-		> ul > li .inputHolder {
-			width: 100%;
-			float: left;
-			overflow: hidden;
-			display: block;
-		}
-		> ul > li .inputHolder input[type="text"] {
-			width: 100%;
-			float: left;
-			overflow: hidden;
-			display: block;
-			border: solid 2px #FFFFFF;
-			line-height: 26px;
-			font-size: 17px;
-			color: #444444;
-			padding: 0 10px;
-		}
-		.searchOptionsHolder {
-			float: left;
-			overflow: visible;
-			display: block;
-			padding: 0;
-		}
-		.searchOptionsHolder {
-			> ul {
-				width: 100%;
-				float: left;
-				overflow: visible;
-				display: block;
-			}
-			> ul > li {
-				float: left;
-				overflow: visible;
-				display: block;
-				padding: 0 10px;
-			}
-			> ul > li:first-child {
-				padding: 0 0px 0 0px;
-			}
-			> ul > li:last-child {
-				padding: 0 10px 0 0px;
-			}
-			> ul > li .labelHolder {
-				width: 100%;
-				float: left;
-				overflow: hidden;
-				display: block;
-				line-height: 35px;
-				font-size: 16px;
-				color: #FFFFFF;
-				text-align: center;
-			}
-			> ul > li .inputsHolder {
-				width: 100%;
-				float: left;
-				overflow: visible;
-				display: block;
-			}
-			> ul > li .inputsHolder input {
-				width: 100%;
-				float: left;
-				overflow: hidden;
-				display: block;
-				box-sizing:border-box;
-				border: solid 2px #FFFFFF;
-				line-height: 26px;
-				font-size: 17px;
-				color: #666666;
-				padding: 0 10px;				
-			}
-		}
-		.searchBtnHolder {
-			float: left;
-			overflow: hidden;
-			display: block;
-			padding: 0;
-		}
-		.searchBtnHolder {
-			> ul {
-				width: 100%;
-				float: left;
-				overflow: hidden;
-				display: block;
-			}
-			> ul > li {
-				float: left;
-				overflow: hidden;
-				display: block;
-				width: 100%;
-			}
-			.labelHolder {
-				width: 100%;
-				float: left;
-				overflow: hidden;
-				display: block;
-				line-height: 35px;
-				font-size: 16px;
-				color: #FFFFFF;
-				text-align: center;
-			}
-			.inputsHolder {
-				width: 100%;
-				float: left;
-				overflow: hidden;
-				display: block;
-			}
-			.inputsHolder button {
-				width: 100%;
-				float: left;
-				overflow: hidden;
-				display: block;
-				box-sizing:border-box;
-				border: solid 1px #85af4b;
-				line-height: 28px;
-				font-size: 17px;
-				color: #FFFFFF;
-				padding: 0 10px;	
-				background-color: #85af4b;		
-				text-align: center;	
-			}			
-		}
-	}
-	.customSelectHolder {
-		width: 100%;
-		float: left;
-		overflow: visible;
-		display: block;
-		background-color: #FFFFFF;
-		padding: 0 10px;	
-		position: relative;		
-		cursor: pointer;
-	}
-	.customSelectHolder {
-		.customMenuLabel {
-			float: left;
-			overflow: hidden;
-			display: block;
-			padding: 0 0px;
-			line-height: 30px;
-			font-size: 17px;
-			color: #666666;
-		}
-		.customMenuCaret {
-			float: left;
-			overflow: hidden;
-			display: block;
-			color: #2a7bd3;
-			font-size: 17px;
-			text-align: center;
-			padding: 0;
-			line-height: 30px;
-		}
-		.customSelectContentsHolder {
-			width: 100%;
-			float: left;
-			overflow: hidden;
-			display: block;
-			background-color: #FFFFFF;
-			position: absolute;
-			top: 30px;
-			left: 0;
-			z-index: 100;
-		}
-		.customSelectContentsHolder {
-			> ul {
-				width: 100%;
-				float: left;
-				overflow: hidden;
-				display: block;
-			} 
-			> ul > li {
-				width: 100%;
-				float: left;
-				overflow: hidden;
-				display: block;
-				line-height: 30px;
-				color: #666666;
-				padding: 0 10px;
-				font-size: 17px;
-				cursor: pointer;
-			}
-			> ul > li:hover {
-				background-color: #85af4b;
-				color: #FFFFFF;
-			}
-		}
-	}	
 }
 .subContainer.midContentHolder {
 	overflow: visible;
@@ -952,17 +758,17 @@ body {
 		display: block;
 		padding: 20px 0;
 		opacity: 0.4;	
-	    animation-name: popularCatOut;
-	    animation-duration: 100ms;
-	    animation-timing-function: ease-in;
-	    animation-iteration-count: 1;		
+		animation-name: popularCatOut;
+		animation-duration: 100ms;
+		animation-timing-function: ease-in;
+		animation-iteration-count: 1;		
 	}
 	.popularCategoriesListHolder > ul > li.popularCatIn {
 		opacity: 1;		
-	    animation-name: popularCatIn;
-	    animation-duration: 100ms;
-	    animation-timing-function: ease-in;
-	    animation-iteration-count: 1;			
+		animation-name: popularCatIn;
+		animation-duration: 100ms;
+		animation-timing-function: ease-in;
+		animation-iteration-count: 1;			
 	}
 	.popularCategoriesListHolder > ul > li a {
 		width: 100%;
@@ -1380,3 +1186,289 @@ body {
 		overflow: hidden;
 	}
 }
+.mobileNavHolder {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: none;
+}	
+.mobileView .mobileNavHolder.open {
+	display: block;
+}
+.mobileView .searchBoxHolder .searchOptionsHolder > ul > li {
+	padding: 0;
+}
+.mobileView .searchBoxHolder .searchOptionsHolder > ul > li:last-child {
+	padding: 0;
+}
+.mobileNavHolder > ul {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+	margin: 0;
+}
+.mobileNavHolder > ul > li {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+	background-color:  #7099c3;	
+}
+.mobileNavHolder > ul > li {
+	border-bottom: solid 1px #FFFFFF;
+}
+.mobileNavHolder > ul > li a {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+	text-decoration: none;
+	padding: 0 10px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 30px;
+}
+.searchMobileHolder {
+	position: fixed;
+	top: 50px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	overflow: visible;
+}
+.titleHolder {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+	font-size: 15px;
+	font-weight: 400;
+}
+.titleHolder span {
+	float: right;
+	color: #FFFFFF;
+}
+.searchMobileContentsHolder {
+	width: 100%;
+	float: left;
+	overflow: visible;
+	display: block;
+	background-color: #0e6bad;
+	padding: 10px;
+	border: solid 1px #DDDDDD;
+}
+.searchInputsContentsHolder {
+	width: 100%;
+	float: left;
+	overflow: visible;
+	display: block;
+}
+.searchBoxHolder {
+	width: 100%;
+	float: left;
+	overflow: visible;
+	display: block;
+	padding: 16px 0;
+}
+.searchBoxHolder {
+	> ul {
+		margin: auto;
+		float: none;
+		overflow: visible;
+		display: block;
+	}
+	> ul > li {
+		width: 100%;
+		overflow: visible;
+		display: block;
+	}
+	> ul > li .inputHolder {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		display: block;
+	}
+	> ul > li .inputHolder input[type="text"] {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		display: block;
+		border: solid 2px #FFFFFF;
+		line-height: 26px;
+		font-size: 17px;
+		color: #444444;
+		padding: 0 10px;
+	}
+	.searchOptionsHolder {
+		float: left;
+		overflow: visible;
+		display: block;
+		padding: 0;
+	}
+	.searchOptionsHolder {
+		> ul {
+			width: 100%;
+			float: left;
+			overflow: visible;
+			display: block;
+		}
+		> ul > li {
+			float: left;
+			overflow: visible;
+			display: block;
+			padding: 0 10px;
+		}
+		> ul > li:first-child {
+			padding: 0 0px 0 0px;
+		}
+		> ul > li:last-child {
+			padding: 0 10px 0 0px;
+		}
+		> ul > li .labelHolder {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+			display: block;
+			line-height: 35px;
+			font-size: 16px;
+			color: #FFFFFF;
+			text-align: center;
+		}
+		> ul > li .inputsHolder {
+			width: 100%;
+			float: left;
+			overflow: visible;
+			display: block;
+		}
+		> ul > li .inputsHolder input {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+			display: block;
+			box-sizing:border-box;
+			border: solid 2px #FFFFFF;
+			line-height: 26px;
+			font-size: 17px;
+			color: #666666;
+			padding: 0 10px;				
+		}
+	}
+	.searchBtnHolder {
+		float: left;
+		overflow: hidden;
+		display: block;
+		padding: 0;
+	}
+	.searchBtnHolder {
+		> ul {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+			display: block;
+		}
+		> ul > li {
+			float: left;
+			overflow: hidden;
+			display: block;
+			width: 100%;
+		}
+		.labelHolder {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+			display: block;
+			line-height: 35px;
+			font-size: 16px;
+			color: #FFFFFF;
+			text-align: center;
+		}
+		.inputsHolder {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+			display: block;
+		}
+		.inputsHolder button {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+			display: block;
+			box-sizing:border-box;
+			border: solid 1px #85af4b;
+			line-height: 28px;
+			font-size: 17px;
+			color: #FFFFFF;
+			padding: 0 10px;	
+			background-color: #85af4b;		
+			text-align: center;	
+		}			
+	}
+}
+.customSelectHolder {
+	width: 100%;
+	float: left;
+	overflow: visible;
+	display: block;
+	background-color: #FFFFFF;
+	padding: 0 10px;	
+	position: relative;		
+	cursor: pointer;
+}
+.customSelectHolder {
+	.customMenuLabel {
+		float: left;
+		overflow: hidden;
+		display: block;
+		padding: 0 0px;
+		line-height: 30px;
+		font-size: 17px;
+		color: #666666;
+	}
+	.customMenuCaret {
+		float: left;
+		overflow: hidden;
+		display: block;
+		color: #2a7bd3;
+		font-size: 17px;
+		text-align: center;
+		padding: 0;
+		line-height: 30px;
+	}
+	.customSelectContentsHolder {
+		width: 100%;
+		float: left;
+		overflow: hidden;
+		display: block;
+		background-color: #FFFFFF;
+		position: absolute;
+		top: 30px;
+		left: 0;
+		z-index: 100;
+	}
+	.customSelectContentsHolder {
+		> ul {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+			display: block;
+		} 
+		> ul > li {
+			width: 100%;
+			float: left;
+			overflow: hidden;
+			display: block;
+			line-height: 30px;
+			color: #666666;
+			padding: 0 10px;
+			font-size: 17px;
+			cursor: pointer;
+		}
+		> ul > li:hover {
+			background-color: #85af4b;
+			color: #FFFFFF;
+		}
+	}
+}	

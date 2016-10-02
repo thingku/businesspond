@@ -80,6 +80,19 @@
 											</div>
 										</div>
 									</li>
+									<li >
+										<div class="headerOption">
+											<div class="headerActionsHolder">
+												<ul>
+													<li >
+														<span class="langIcon searchMobile">
+															<i class="fa fa-search" aria-hidden="true"></i>
+														</span>
+													</li>											
+												</ul>
+											</div>
+										</div>
+									</li>									
 								</ul>
 							</div>
 						</li>								
@@ -201,6 +214,35 @@
 					</ul>
 				</div>
 			</header>
+			<nav class="mobileNavHolder">
+				<ul>
+					<li>
+						<a>
+							Business for sale
+						</a>
+					</li>
+					<li>
+						<a>
+							Service Directory
+						</a>
+					</li>
+					<li>
+						<a>
+							Sellers
+						</a>
+					</li>
+					<li>
+						<a>
+							Brokers
+						</a>
+					</li>
+					<li>
+						<a>
+							Support
+						</a>
+					</li>																																
+				</ul>
+			</nav>
 		</div>
 		<div class="subContainer bannerHolder">			
 			<section class="bannerBackGroundHolder">
@@ -306,11 +348,6 @@
 								</div>
 							</li>
 						</ul>
-					</div>
-					<div class="searchMobile">
-						<button>
-							<i class="fa fa-search" aria-hidden="true"></i> Search Now
-						</button>
 					</div>
 				</div>
 			</section>
@@ -953,18 +990,127 @@
 					</div>
 				</div>
 			</footer>
-		</div>													
-</div>
+		</div>												
+	</div>
+ 	<div class="searchMobileHolder">
+		<div class="searchMobileContentsHolder">
+			<div class="titleHolder">
+				<span id="closeSearch">
+					<i class="fa fa-times" aria-hidden="true"></i>
+				</span>
+			</div>
+			<div class="searchBoxHolder">
+				<ul class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+					<li class="mainSearchHolder">
+						<div class="inputHolder">
+							<input type="text" placeholder="Search for Title, Country, Region" />
+						</div>
+					</li>
+					<li>
+						<div class="searchOptionsHolder col-lg-10 col-md-10 col-sm-10 col-xs-12">
+							<ul>
+								<li class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+									<div class="labelHolder">
+										Location
+									</div>
+									<div class="inputsHolder">
+										<input placeholder="Location" type="text">
+									</div>
+								</li>
+								<li class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="categoryOption1">
+									<div class="labelHolder">
+										Category
+									</div>											
+									<div class="inputsHolder">
+										<div class="customSelectHolder ">
+											<div class="customMenuLabel col-lg-10 col-md-10 col-sm-10 col-xs-10">
+												Please Select
+											</div>
+											<div class="customMenuCaret  col-lg-2 col-md-2 col-sm-2 col-xs-2">
+												<img src="images/caret-down.png">
+											</div>
+											<div class="customSelectContentsHolder hidden">
+												<ul>
+													<li data-value="Category 1">
+														Category 1
+													</li>
+													<li  data-value="Category 2">
+														Category 2
+													</li>
+													<li  data-value="Category 3">
+														Category 3
+													</li>																															
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="typeOption1">
+									<div class="labelHolder">
+										Type
+									</div>											
+									<div class="inputsHolder">
+										<div class="customSelectHolder">
+											<div class="customMenuLabel col-lg-10 col-md-10 col-sm-10 col-xs-10">
+												Please Select
+											</div>
+											<div class="customMenuCaret  col-lg-2 col-md-2 col-sm-2 col-xs-2">
+												<img src="images/caret-down.png">
+											</div>
+											<div class="customSelectContentsHolder hidden">
+												<ul>
+													<li data-value="Type 1">
+														Type 1
+													</li>
+													<li  data-value="Type 2">
+														Type 2
+													</li>
+													<li  data-value="Type 3">
+														Type 3
+													</li>																															
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>																				
+							</ul>
+						</div>
+						<div class="searchBtnHolder col-lg-2 col-md-2 col-sm-2 col-xs-12">
+							<ul>
+								<li>
+									<div class="labelHolder">
+										&nbsp;
+									</div>
+									<div class="inputsHolder">
+										<button>SEARCH</button>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>	
 </body>
 <script type="text/javascript" src="js/scripts.js"></script>
 <script type="text/javascript">
 $(document).ready( function() {
 	showCustomSelectSearch( '#categoryOption' );
 	showCustomSelectSearch( '#typeOption' );
+	showCustomSelectSearch( '#categoryOption1' );
+	showCustomSelectSearch( '#typeOption1' );	
 	addFavorites();
 	selectLanguage('#currLanguage1','#selectedLanguage1');
 	selectLanguage('#currLanguage2','#selectedLanguage2');
 	randomAnimation();
+	mobileViewChecker();
+	toggleMenu();
+	mobileChecker();
+	showMobileSearch();
+	$(window).resize( function() {
+		mobileChecker();
+	} );
 } );
 </script>
 </html>
