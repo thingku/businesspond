@@ -1,0 +1,20 @@
+@keyframes fadeInBanner {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fadeInHoverCategory {
+    0%   {opacity: 0.7;}
+    100% {opacity: 1;}
+}
+@keyframes fadeOutHoverCategory {
+    0%   {opacity: 1;}
+    100% {opacity: 0.7;}
+}
+@keyframes popularCatOut {
+    0%   {opacity: 0.4;}
+    100% {opacity: 1;}
+}
+@keyframes popularCatIn {
+    100% {opacity: 1;}
+    0%   {opacity: 0.4;}
+}

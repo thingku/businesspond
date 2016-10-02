@@ -1,0 +1,1165 @@
+html, body, div, p, a, ul, li, ol, table, tr, td, th, h1, h2, h3, h4, h5, h6, header, nav, span, section {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  font-family: "Source Sans Pro", sans-serif; }
+
+body {
+  width: 100%; }
+
+#mainHeaderMobile,
+.searchMobile {
+  display: none; }
+
+.mainContainer {
+  width: 100%;
+  float: left;
+  overflow: visible;
+  display: block; }
+
+.subContainer .container {
+  max-width: 840px; }
+
+.subContainer {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+
+.subContainer header {
+  width: 100%;
+  float: left;
+  overflow: visible;
+  display: block; }
+.subContainer header ul.headerContentsHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  margin: 0; }
+.subContainer header ul.headerContentsHolder > li {
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer header ul.headerContentsHolder > li.logoHolder a {
+  display: block;
+  overflow: hidden;
+  float: left;
+  max-width: 280px; }
+.subContainer header ul.headerContentsHolder > li a img {
+  max-width: 100%;
+  padding: 10px 0; }
+.subContainer header ul.headerContentsHolder > li.navHolder {
+  float: right; }
+.subContainer header .headerOptionsHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer header .headerOptionsHolder > ul {
+  float: right;
+  overflow: hidden;
+  display: block; }
+.subContainer header .headerOptionsHolder > ul > li {
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0 10px; }
+.subContainer header .headerOptionsHolder > ul > li:last-child {
+  padding: 0 0 0 10px; }
+.subContainer header .headerOption {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  border-left: 2px solid #a7d665;
+  border-right: 2px solid #a7d665;
+  border-bottom: 2px solid #a7d665;
+  border-radius: 0 0 7px 7px;
+  line-height: 30px; }
+.subContainer .languageSelectorHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0 0px; }
+.subContainer .languageSelectorHolder > ul {
+  width: auto;
+  float: none;
+  overflow: hidden;
+  display: block;
+  margin: auto; }
+.subContainer .languageSelectorHolder > ul > li {
+  float: left;
+  overflow: hidden;
+  display: block;
+  line-height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0 10px;
+  clear: both;
+  width: 100%; }
+.subContainer .languageSelectorHolder > ul > li.langList {
+  display: none; }
+.subContainer .languageSelectorHolder > ul.open > li.langList {
+  display: block; }
+.subContainer .languageSelectorHolder > ul > li:hover {
+  background-color: rgba(128, 180, 55, 0.7); }
+.subContainer .languageSelectorHolder > ul > li:hover .languageLabel {
+  color: #FFFFFF; }
+.subContainer .languageSelectorHolder > ul > li:hover .caretHolder {
+  color: #FFFFFF; }
+.subContainer .languageSelectorHolder > ul > li .langIcon {
+  margin: 0 7px 0 0;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer .languageSelectorHolder > ul > li .langIcon img {
+  vertical-align: middle;
+  margin: 0 0 4px; }
+.subContainer .languageSelectorHolder > ul > li .languageLabel {
+  float: left;
+  overflow: hidden;
+  display: block;
+  color: #7ca444;
+  font-size: 15px;
+  font-weight: 600; }
+.subContainer .languageSelectorHolder > ul > li .caretHolder {
+  font-size: 18px;
+  float: left;
+  overflow: hidden;
+  display: block;
+  color: #638d29;
+  margin: 0 0 0 7px; }
+.subContainer .headerActionsHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0 10px; }
+.subContainer .headerActionsHolder > ul {
+  width: auto;
+  float: none;
+  overflow: hidden;
+  display: block;
+  margin: auto; }
+.subContainer .headerActionsHolder > ul > li {
+  float: left;
+  overflow: hidden;
+  display: inline-block;
+  line-height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0 5px; }
+.subContainer .headerActionsHolder > ul > li .langIcon {
+  margin: 0 7px 0 0;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer .headerActionsHolder > ul > li .langIcon img {
+  vertical-align: middle;
+  margin: 0 0 4px; }
+.subContainer .headerActionsHolder > ul > li .languageLabel {
+  float: left;
+  overflow: hidden;
+  display: block;
+  color: #7ca444;
+  font-size: 15px;
+  font-weight: 600; }
+.subContainer .headerActionsHolder > ul > li:last-child {
+  float: right; }
+.subContainer .navListHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 15px 0 0 0; }
+.subContainer .navListHolder > ul {
+  width: auto;
+  float: right;
+  overflow: hidden;
+  display: block; }
+.subContainer .navListHolder > ul > li {
+  float: left;
+  overflow: hidden;
+  display: inline-block;
+  line-height: 35px; }
+.subContainer .navListHolder > ul > li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #7099c3;
+  font-weight: 400;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+  padding: 0 10px; }
+.subContainer .navListHolder > ul > li:last-child a {
+  padding: 0 0 0 15px; }
+
+.subContainer.bannerHolder {
+  height: 445px;
+  background-color: #108ab7;
+  overflow: visible;
+  position: relative; }
+
+.subContainer.bannerHolder .bannerBackGroundHolder {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 0;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center; }
+.subContainer.bannerHolder .bannerBackGroundHolder img {
+  max-width: 1240px;
+  width: 100%;
+  z-index: 0;
+  opacity: 1;
+  animation-name: fadeInBanner;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1; }
+.subContainer.bannerHolder .bannerContentsHolder {
+  width: 100%;
+  float: left;
+  overflow: visible;
+  display: block; }
+.subContainer.bannerHolder .welcomeMessageHolder {
+  font-size: 55px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 300;
+  line-height: 60px; }
+.subContainer.bannerHolder .subInfoHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 27px; }
+.subContainer.bannerHolder .welcomeMessageContainer {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 40px 0; }
+.subContainer.bannerHolder .searchBoxHolder {
+  width: 100%;
+  float: left;
+  overflow: visible;
+  display: block;
+  padding: 16px 0; }
+.subContainer.bannerHolder .searchBoxHolder > ul {
+  margin: auto;
+  float: none;
+  overflow: visible;
+  display: block; }
+.subContainer.bannerHolder .searchBoxHolder > ul > li {
+  width: 100%;
+  overflow: visible;
+  display: block; }
+.subContainer.bannerHolder .searchBoxHolder > ul > li .inputHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.bannerHolder .searchBoxHolder > ul > li .inputHolder input[type="text"] {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  border: solid 2px #FFFFFF;
+  line-height: 26px;
+  font-size: 17px;
+  color: #444444;
+  padding: 0 10px; }
+.subContainer.bannerHolder .searchBoxHolder .searchOptionsHolder {
+  float: left;
+  overflow: visible;
+  display: block;
+  padding: 0; }
+.subContainer.bannerHolder .searchBoxHolder .searchOptionsHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: visible;
+  display: block; }
+.subContainer.bannerHolder .searchBoxHolder .searchOptionsHolder > ul > li {
+  float: left;
+  overflow: visible;
+  display: block;
+  padding: 0 10px; }
+.subContainer.bannerHolder .searchBoxHolder .searchOptionsHolder > ul > li:first-child {
+  padding: 0 0px 0 0px; }
+.subContainer.bannerHolder .searchBoxHolder .searchOptionsHolder > ul > li:last-child {
+  padding: 0 10px 0 0px; }
+.subContainer.bannerHolder .searchBoxHolder .searchOptionsHolder > ul > li .labelHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  line-height: 35px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center; }
+.subContainer.bannerHolder .searchBoxHolder .searchOptionsHolder > ul > li .inputsHolder {
+  width: 100%;
+  float: left;
+  overflow: visible;
+  display: block; }
+.subContainer.bannerHolder .searchBoxHolder .searchOptionsHolder > ul > li .inputsHolder input {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  box-sizing: border-box;
+  border: solid 2px #FFFFFF;
+  line-height: 26px;
+  font-size: 17px;
+  color: #666666;
+  padding: 0 10px; }
+.subContainer.bannerHolder .searchBoxHolder .searchBtnHolder {
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0; }
+.subContainer.bannerHolder .searchBoxHolder .searchBtnHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.bannerHolder .searchBoxHolder .searchBtnHolder > ul > li {
+  float: left;
+  overflow: hidden;
+  display: block;
+  width: 100%; }
+.subContainer.bannerHolder .searchBoxHolder .searchBtnHolder .labelHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  line-height: 35px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center; }
+.subContainer.bannerHolder .searchBoxHolder .searchBtnHolder .inputsHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.bannerHolder .searchBoxHolder .searchBtnHolder .inputsHolder button {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  box-sizing: border-box;
+  border: solid 1px #85af4b;
+  line-height: 28px;
+  font-size: 17px;
+  color: #FFFFFF;
+  padding: 0 10px;
+  background-color: #85af4b;
+  text-align: center; }
+.subContainer.bannerHolder .customSelectHolder {
+  width: 100%;
+  float: left;
+  overflow: visible;
+  display: block;
+  background-color: #FFFFFF;
+  padding: 0 10px;
+  position: relative;
+  cursor: pointer; }
+.subContainer.bannerHolder .customSelectHolder .customMenuLabel {
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0 0px;
+  line-height: 30px;
+  font-size: 17px;
+  color: #666666; }
+.subContainer.bannerHolder .customSelectHolder .customMenuCaret {
+  float: left;
+  overflow: hidden;
+  display: block;
+  color: #2a7bd3;
+  font-size: 17px;
+  text-align: center;
+  padding: 0;
+  line-height: 30px; }
+.subContainer.bannerHolder .customSelectHolder .customSelectContentsHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 100; }
+.subContainer.bannerHolder .customSelectHolder .customSelectContentsHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.bannerHolder .customSelectHolder .customSelectContentsHolder > ul > li {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  line-height: 30px;
+  color: #666666;
+  padding: 0 10px;
+  font-size: 17px;
+  cursor: pointer; }
+.subContainer.bannerHolder .customSelectHolder .customSelectContentsHolder > ul > li:hover {
+  background-color: #85af4b;
+  color: #FFFFFF; }
+
+.subContainer.midContentHolder {
+  overflow: visible; }
+
+.subContainer.midContentHolder .midMessageHolder {
+  float: none;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  color: #666666;
+  font-size: 27px;
+  margin: 60px auto;
+  font-weight: 300; }
+.subContainer.midContentHolder .midMessageContentHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.midContentHolder .featuredBusinessHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessTitleHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  color: #3c5265;
+  font-size: 27px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 75px; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder > ul > li {
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0 15px; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .thumbContentsHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 7px;
+  background-color: #3c5265; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .thumbImageHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  position: relative; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .thumbImageHolder img {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  max-width: 100%; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .thumbTagHolder {
+  position: absolute;
+  width: 135px;
+  height: 57px;
+  background-image: url(../images/thumb-tag.png); }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .thumbTabLabelHolder {
+  position: relative; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .thumbTabLabelHolder span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-size: 15px;
+  width: auto;
+  padding: 0 10px; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredContentHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 15px 0; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredContentHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredContentHolder > ul > li {
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0 15px; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredContentHolder > ul > li:last-child {
+  float: right;
+  overflow: hidden;
+  display: block;
+  width: 25px;
+  text-align: center;
+  padding: 0;
+  cursor: pointer; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredContentHolder .featuredDetailsHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredContentHolder .featuredDetailsHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredContentHolder .featuredDetailsHolder > ul > li {
+  float: left;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  color: #FFFFFF;
+  line-height: 25px; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredContentHolder .featuredDetailsHolder > ul > li.businessName {
+  font-size: 17px; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredContentHolder .featuredDetailsHolder > ul > li.locationName {
+  font-size: 15px; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredContentHolder .featuredDetailsHolder > ul > li.summaryDetails {
+  font-size: 13px;
+  line-height: 18px; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredContentHolder .featuredDetailsHolder > ul > li.priceDetails {
+  font-size: 15px;
+  font-weight: 600; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredBtnsHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredBtnsHolder > ul {
+  margin: auto;
+  float: none;
+  display: block;
+  padding: 0 30px;
+  overflow: hidden; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredBtnsHolder > ul > li {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 5px 0; }
+.subContainer.midContentHolder .featuredBusinessHolder .featuredBusinessThumbsHolder .featuredBtnsHolder > ul > li button {
+  line-height: 30px;
+  width: 100%;
+  background-color: transparent;
+  border: solid 2px #FFFFFF;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 3px;
+  color: #FFFFFF; }
+.subContainer.midContentHolder .featuredBusinessHolder .moreFeaturedLinkHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  margin: 30px 0; }
+.subContainer.midContentHolder .featuredBusinessHolder .moreFeaturedLinkHolder button {
+  background-color: #80b437;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: 400;
+  line-height: 30px;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0 30px; }
+
+.categoryListHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  margin: -90px 0 0 0; }
+
+.categoryListHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.categoryListHolder > ul > li {
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0 5px; }
+
+.categoryListContainer {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+
+.lookingForBusiness .topSectionHolder {
+  background-color: rgba(128, 180, 55, 0.7); }
+
+.lookingForBusiness .midSectionHolder .coloredSection {
+  background-color: rgba(128, 180, 55, 0.7); }
+
+.sellingMyBusiness .topSectionHolder {
+  background-color: rgba(14, 107, 173, 0.7); }
+
+.sellingMyBusiness .midSectionHolder .coloredSection {
+  background-color: rgba(14, 107, 173, 0.7); }
+
+.sellingMultiple .topSectionHolder {
+  background-color: rgba(248, 125, 16, 0.7); }
+
+.sellingMultiple .midSectionHolder .coloredSection {
+  background-color: rgba(248, 125, 16, 0.7); }
+
+.categoryListContainer .topSectionHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  border-top: solid 10px transparent; }
+.categoryListContainer .topSectionHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: table; }
+.categoryListContainer .topSectionHolder > ul > li {
+  float: none;
+  overflow: hidden;
+  display: table-cell;
+  vertical-align: top; }
+.categoryListContainer .topSectionHolder > ul > li:first-child {
+  border-right: solid 1px #FFFFFF;
+  max-width: 48px;
+  max-width: 48px;
+  padding: 0 5px; }
+.categoryListContainer .topSectionHolder .iconHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  padding: 3px 0; }
+.categoryListContainer .topSectionHolder .iconHolder img {
+  width: 27px; }
+.categoryListContainer .topSectionHolder .labelHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 30px;
+  padding: 0 0 10px;
+  line-height: 35px; }
+.categoryListContainer .midSectionHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.categoryListContainer .midSectionHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: table; }
+.categoryListContainer .midSectionHolder > ul > li {
+  float: none;
+  overflow: hidden;
+  display: table-cell;
+  vertical-align: top; }
+.categoryListContainer .midSectionHolder > ul > li:first-child {
+  border-right: solid 1px transparent;
+  min-width: 38px;
+  max-width: 38px;
+  padding: 0 5px; }
+.categoryListContainer .midSectionHolder > ul > li:nth-child(2) {
+  padding: 0; }
+.categoryListContainer .midSectionHolder .iconHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.categoryListContainer .midSectionHolder .coloredSection {
+  padding: 0 15px;
+  width: 100%;
+  float: left;
+  overflow: hidden; }
+.categoryListContainer .midSectionHolder .labelHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 45px; }
+.categoryListContainer .midSectionHolder .smallInfoHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  color: #FFFFFF;
+  line-height: 30px; }
+.categoryListContainer .checkListHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 5px 15px;
+  background-color: #FFFFFF; }
+.categoryListContainer .checkList {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.categoryListContainer .checkList > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.categoryListContainer .checkList > ul > li {
+  line-height: 25px;
+  width: 100%;
+  float: left;
+  font-size: 15px;
+  color: #4c84b8;
+  font-weight: 600; }
+.categoryListContainer .checkList > ul > li span {
+  color: #8c8c8c;
+  margin: 0 7px 0 0; }
+.categoryListContainer .categoryBtnHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 20px 0; }
+.categoryListContainer .categoryBtnHolder button {
+  background-color: #80b437;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: 400;
+  line-height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding: 0 15px; }
+
+.subContainer.popularContentsHolder {
+  margin: 50px 0;
+  overflow: visible; }
+
+.subContainer.popularContentsHolder .popularTitleHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  color: #0c6aaa;
+  font-size: 27px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 75px; }
+.subContainer.popularContentsHolder .popularCategoriesListHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.popularContentsHolder .popularCategoriesListHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li {
+  width: 20%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 20px 0;
+  opacity: 0.4;
+  animation-name: popularCatOut;
+  animation-duration: 100ms;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1; }
+.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li.popularCatIn {
+  opacity: 1;
+  animation-name: popularCatIn;
+  animation-duration: 100ms;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1; }
+.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li a {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer; }
+.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li a img {
+  height: 100px; }
+.subContainer.popularContentsHolder .popularCategoriesListHolder > ul > li a p {
+  text-align: center;
+  font-size: 16px;
+  color: #1267a7;
+  text-transform: uppercase; }
+
+.subContainer.featuredServices {
+  margin: 50px 0;
+  overflow: visible; }
+
+.subContainer.featuredServices .sectionTitleHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  color: #666666;
+  font-size: 27px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 75px; }
+.subContainer.featuredServices .sectionListHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.featuredServices .sectionListHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.featuredServices .sectionListHolder > ul > li {
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.featuredServices .sectionListHolder > ul > li:first-child {
+  float: left;
+  padding: 0 20px 0 0; }
+.subContainer.featuredServices .sectionListHolder > ul > li:last-child {
+  float: right;
+  padding: 0 0 0 20px; }
+.subContainer.featuredServices .thumbContentsHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  border: solid 2px #172935;
+  background-color: #172935; }
+.subContainer.featuredServices .logoBrandHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: table;
+  position: relative;
+  height: 85px;
+  text-align: center;
+  background-color: #FFFFFF; }
+.subContainer.featuredServices .logoContenstHolder {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  float: none;
+  position: relative; }
+.subContainer.featuredServices .thumbTagHolder {
+  position: absolute;
+  width: 135px;
+  height: 57px;
+  background-image: url(../images/thumb-tag.png);
+  top: 0;
+  left: 0; }
+.subContainer.featuredServices .thumbTabLabelHolder {
+  position: relative; }
+.subContainer.featuredServices .thumbTabLabelHolder span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-size: 15px;
+  width: auto;
+  padding: 0 10px; }
+.subContainer.featuredServices .serviceDetailsHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 10px 20px; }
+.subContainer.featuredServices .serviceDetailsHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.featuredServices .serviceDetailsHolder > ul > li {
+  float: left;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  color: #FFFFFF;
+  line-height: 25px; }
+.subContainer.featuredServices .serviceDetailsHolder > ul > li.businessName {
+  font-size: 17px; }
+.subContainer.featuredServices .serviceDetailsHolder > ul > li.locationName {
+  font-size: 15px; }
+.subContainer.featuredServices .serviceDetailsHolder > ul > li.summaryDetails {
+  font-size: 13px;
+  line-height: 18px;
+  padding: 5px 0; }
+.subContainer.featuredServices .serviceDetailsHolder > ul > li.priceDetails {
+  font-size: 15px;
+  font-weight: 600; }
+.subContainer.featuredServices .btnHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 10px 0 0; }
+.subContainer.featuredServices .btnHolder button {
+  line-height: 30px;
+  padding: 0 30px;
+  background-color: transparent;
+  border: solid 2px #FFFFFF;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 3px;
+  color: #FFFFFF; }
+.subContainer.featuredServices .moreSectionLinkHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  margin: 30px 0; }
+.subContainer.featuredServices .moreSectionLinkHolder button {
+  background-color: #80b437;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: 400;
+  line-height: 30px;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0 30px;
+  text-transform: uppercase; }
+
+.subContainer.adsHolder {
+  margin: 50px 0;
+  overflow: visible; }
+
+.subContainer.adsHolder .sectionListHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.adsHolder .sectionListHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.adsHolder .sectionListHolder > ul > li {
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.adsHolder .sectionListHolder > ul > li img {
+  width: 100%;
+  max-width: 100%; }
+.subContainer.adsHolder .sectionListHolder > ul > li:first-child {
+  float: left; }
+.subContainer.adsHolder .sectionListHolder > ul > li:last-child {
+  float: right; }
+
+.subContainer.messageHolder {
+  margin: 0px 0;
+  overflow: visible; }
+
+.subContainer.messageHolder .quoteIconHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  padding: 30px 0; }
+.subContainer.messageHolder .messageContentHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.messageHolder .messageContent {
+  float: none;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  color: #666666;
+  font-size: 27px;
+  margin: 0px auto;
+  font-weight: 300;
+  max-width: 600px; }
+.subContainer.messageHolder .messageFromHolder {
+  float: none;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  color: #666666;
+  font-size: 17px;
+  margin: 20px auto 0;
+  max-width: 600px; }
+.subContainer.messageHolder .messageFromHolder span {
+  font-weight: 600; }
+
+.subContainer.footerHolder {
+  margin: 50px 0;
+  overflow: visible; }
+
+.subContainer.footerHolder .mainFooterHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.footerHolder .mainFooterHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.footerHolder .mainFooterHolder > ul > li {
+  float: left;
+  overflow: hidden;
+  display: block;
+  border-right: solid 1px #DDDDDD;
+  padding: 0 15px 0 0; }
+.subContainer.footerHolder .mainFooterHolder > ul > li:last-child {
+  border: none; }
+.subContainer.footerHolder .footerListHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0 10px; }
+.subContainer.footerHolder .footerListHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.footerHolder .footerListHolder > ul > li {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  line-height: 30px;
+  color: #666666; }
+.subContainer.footerHolder .footerListHolder > ul > li.important {
+  color: #85af4b; }
+.subContainer.footerHolder .footerListHolder > ul > li .iconHolder {
+  float: left;
+  overflow: hidden;
+  width: 30px;
+  text-align: center; }
+.subContainer.footerHolder .footerListHolder > ul > li .labelHolder {
+  width: auto;
+  float: left;
+  overflow: hidden;
+  display: block;
+  font-weight: 600;
+  font-size: 14px; }
+.subContainer.footerHolder .footerSubscribeHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.footerHolder .footerSubscribeHolder a {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  cursor: pointer; }
+.subContainer.footerHolder .footerSubscribeHolder a img {
+  width: 100%;
+  max-width: 100%;
+  display: block; }
+.subContainer.footerHolder .footerSocialHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0 0px 0 20px; }
+.subContainer.footerHolder .footerSocialHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.footerHolder .footerSocialHolder > ul > li {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.footerHolder .footerLogoHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 0 0 10px; }
+.subContainer.footerHolder .footerLogoHolder img {
+  width: 100%;
+  max-width: 100%;
+  display: block; }
+.subContainer.footerHolder .footerContactDetails {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  font-size: 14px;
+  line-height: 25px;
+  color: #666666;
+  font-weight: 600; }
+.subContainer.footerHolder .footerSocialIconsHolder {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block;
+  padding: 15px 0; }
+.subContainer.footerHolder .footerSocialIconsHolder > ul {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.footerHolder .footerSocialIconsHolder > ul > li {
+  float: left;
+  overflow: hidden;
+  display: block;
+  width: 25%;
+  padding: 0 15px 0 0; }
+.subContainer.footerHolder .footerSocialIconsHolder > ul > li a {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  display: block; }
+.subContainer.footerHolder .footerSocialIconsHolder > ul > li a img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  overflow: hidden; }
+
+/*# sourceMappingURL=main.css.map */
